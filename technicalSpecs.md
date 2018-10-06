@@ -1,5 +1,5 @@
 
-# Bike Waggle Sensor
+# Bike Sensor
 This document specifies the technical specifications for the Bike Waggle Sensor.
 
 ## 1.0 Sensor Brain : [Particle Photon](https://docs.particle.io/datasheets/photon-(wifi)/photon-datasheet/)
