@@ -1,5 +1,4 @@
-# The Wiring Layout for  the Bike Waggle Project
-
+# The Wiring Layout for  the Bike Sensor
 ## Devices Used
 The devices used for the Bike Waggle Project are listed below. 
 
