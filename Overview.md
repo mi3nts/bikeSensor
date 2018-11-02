@@ -1,4 +1,4 @@
-# Bike Bottle Design Overveiw
+# Bike Bottle Design Overview
 ## Introduction 
 Portable devices which can detect airbourne particulates are finding its way into current consumer markets. Unlike there bulky, stationary counterparts the small scale nature of such sensors feeds into a more user friendly, hazzle free platform. The current document proposes such a portable device designed to be fit within a bike bottle housing. Particulate matter is linked with a number of negative health outcomes. Such links are to be addressed with the use of the propesed device.
 
