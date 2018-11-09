@@ -148,15 +148,17 @@ Initialize_SPI1();
 Initialize_OPCN3_BW();
 Initialize_LCD_BW();
 Turn_WiFi_On_BW();
-Initialize_PCF8523_BW();
-Update_PCF8523_BW();
+
+
 Initialize_HTU2ID_BW();
 Initialize_MPU9250_BW();
 Initialize_BMP280_BW();
 Initialize_NEO6M_BW();
 Initialize_SD_BW();
-
-//
+delay(1000);
+Initialize_PCF8523_BW();
+delay(1000);
+Update_PCF8523_BW();
 
 }
 
@@ -218,9 +220,9 @@ Check_Function_Registration();
 Write_Sensorgram_Packets_To_SD_BW();
 WiFi_Control_BW();
 
-Check_SD_Free_Space_BW();
+// Check_SD_Free_Space_BW();
 Serial.println("Changes Made");
-Check_Function_Registration();
+// Check_Function_Registration();
 Halt_BW();
 Serial.println("Final Loop Time:"+String(float(millis()-Loop_Begin_Time)/1000));
 }// End of Loop
